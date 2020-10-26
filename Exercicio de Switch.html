@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ept">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var funcionario = prompt("Informe o tipo de fun");
+
+
+
+        switch (funcionario) {
+            case "H":
+                var salariohorista = prompt("Salario por hora");
+                var horatrabalhas = prompt("Horas trabalhadas");
+                var total = parseFloat(salariohorista * horatrabalhas)
+
+                var total = salariohorista * horatrabalhas
+
+                document.write("Sálario bruto é: " + total + "<br>")
+                document.write("Você um escravo horista")
+                break;
+            case "h":
+                var salariohorista = prompt("Salario por hora");
+                var horatrabalhas = prompt("Horas trabalhadas");
+                var total = parseFloat(salariohorista * horatrabalhas)
+                var total = salariohorista * horatrabalhas
+
+                document.write("Sálario bruto é: " + total + "<br>")
+                document.write("Você um escravo horista")
+                break;
+            case "M":
+                var salariomensal = parseFloat(prompt("Digite seu salario"))
+                var faltas = parseFloat(prompt("Digite as faltas"))
+                var total2 = (salariomensal / 30) * faltas
+                document.write("Seu salario é " + total2)
+                var total3 = parseInt(total2) 
+                document.write("Seu salario é" + total3)
+                document.write("Você é um vagabundo mensalista")
+                break;
+            case "m":
+            var salariomensal = parseFloat(prompt("Digite seu salario"))
+                var faltas = parseFloat(prompt("Digite as faltas"))
+                var total2 = (salariomensal / 30) * faltas
+                
+                var total3 = parseInt(total2) 
+                document.write("Seu salario é" + total3)
+                break;
+                document.write("Você é um vagabundo mensalista")
+
+
+
+        }
+    </script>
+</body>
+
+</html>
